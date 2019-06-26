@@ -1,0 +1,24 @@
+{
+	"name": "toolpractice",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "parcel index.html --port 8888 --open --no-cache",
+		"build": "parcel build index.html --no-cache"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"jactools": "^1.0.10",
+		"vue-hot-reload-api": "^2.3.3"
+	},
+	"devDependencies": {
+		"@babel/polyfill": "^7.4.4",
+		"@vue/component-compiler-utils": "^3.0.0",
+		"babel-core": "^6.26.3",
+		"babel-preset-env": "^1.7.0",
+		"parcel-bundler": "^1.12.3",
+		"vue-template-compiler": "^2.6.10"
+	}
+}
